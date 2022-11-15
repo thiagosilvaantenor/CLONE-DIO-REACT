@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+## Clone da plataforma Digital Inovation One, usando React e Typescript
+ <div align="center">
+ 
+![image](https://user-images.githubusercontent.com/99970279/202024375-c0574668-ae65-497e-9ac4-0e5f2b87daf5.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![image](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![image](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white)
+![image](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-## Available Scripts
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Sobre o projeto
+Olá, esse projeto foi feito junto com o curso "Começando na Biblioteca React" do bootcamp Orange Tech+ da Dio, Digital Inovation One
+O objetivo foi: criar um clone da pagina inicial, login e feed da DIO, usando ReactJs e StyledComponents, ao longo do curso o projeto foi incrementado com outras ferramentas e por fim foi convertido para Typescript
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Índice
+=================
+<!--ts-->
+   * [Titulo](#clone-da-plataforma-digital-inovation-one-usando-react-e-typescript)
+   * [Sobre o projeto](#sobre-o-projeto)
+   * [Índice](#índice)
+   * [Tecnologias 🛠](#tecnologias)
+   * [Demonstrações](#demonstrações)
+   * [Como rodar](#como-rodar)
+   * [Agradecimentos](#agradecimentos)
+   * [Autor](#autor)
+   <!--te-->
 
-### `npm test`
+## Tecnologias
+- [React](https://pt-br.reactjs.org)
+- [Styled Components](https://styled-components.com)
+- [Typescript](https://www.typescriptlang.org)
+- [JsonServer](https://www.npmjs.com/package/json-server)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+- [React Hook Form](https://react-hook-form.com)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Demonstrações
+- Página inicial
+![image](https://user-images.githubusercontent.com/99970279/202018228-78a1a759-a128-468a-be3b-159d03917138.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Página de Login
+![image](https://user-images.githubusercontent.com/99970279/202021546-bb47a665-1b62-4ab6-8c25-3386e1df4bfc.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Página do feed
+![image](https://user-images.githubusercontent.com/99970279/202021786-a9cab2f9-17ca-48c6-9eb2-087d640c80b4.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Como rodar 
+- Requisitos:
+  - [Node](https://nodejs.org/en/) ou [Yarn](https://yarnpkg.com)
+  - [VisualStudioCode](https://code.visualstudio.com)
+  - [JsonServer](https://www.npmjs.com/package/json-server)
+  
+- Rodando
+  - Faça o download do projeto, abra ele no VSCODE
+  - Com o Node ou o Yarn instalado, abra um terminal no diretório do projeto
+  - Use o comando, para o Node npm install, ou, para Yarn yarn install, para instalar todas as dependencias necessárias
+  - Para rodar a api com o json-server, para o Node use o comando 'json-server --watch db.json -p 8001', para o Yarn use 'yarn api'
+  - Em outro terminal use o comando node start para inciar o projeto, ele vai estar em http://localhost:3000
+  
+- Login
+  - para prosseguir do login para o feed, é preciso usar o email e senha no arquivo db.json
+    - Usuário 1:
+      - email: pablo@email.com
+      - senha: 123456
+    - Usuário 1:
+      - email: jose@email.com
+      - senha: 123456
+ 
+- Você pode navegar pelas páginas também pelo endereço:
+    - Página inicial
+      - http://localhost:3000
+    - Pagina de login:
+      - http://localhost:3000/login
+    - Página de feed
+      - http://localhost:3000/feed
+      
+## Agradecimentos
+Agradeço à plataforma [DIO](https://github.com/digitalinnovationone) - Digital Inovation One
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+E também ao [Pablo Henrique](https://github.com/pablohdev)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Autor
+<div align="center">
+<a href="https://www.linkedin.com/in/thiago-antenor/">
+<img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/99970279?v=4" width="100px;" alt="foto do autor"/>
+ <br />
+ <sub><b>Thiago Silva Antenor</b></sub></a> <a href="https://www.linkedin.com/in/thiago-antenor/" title="Linkedin"> 🧑🏾‍💻</a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feito por Thiago Silva Antenor 👨🏾‍💻 Entre em contato!
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thiago-antenor/)](https://www.linkedin.com/in/thiago-antenor/) 
+[![Gmail Badge](https://img.shields.io/badge/-thiagoantenor31@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:thiagoantenor31.com)](mailto:thiagoantenor31.com)
+</div>
