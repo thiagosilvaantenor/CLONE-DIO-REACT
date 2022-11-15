@@ -12,8 +12,9 @@ import {
   Wrapper,
   UserPicture
 } from './styles'
+import { IHeader } from "./types";
 
-const Header= ({autentificado}) =>{
+const Header= ({autentificado}: IHeader) =>{
   return(
     <Wrapper>
       <Container>
