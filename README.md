@@ -13,7 +13,8 @@
 
 
 ## Sobre o projeto
-Olá, esse projeto foi feito junto com o curso "Começando na Biblioteca React" do bootcamp Orange Tech+ da Dio, Digital Inovation One
+Olá, esse projeto foi feito junto com o curso "Começando na Biblioteca React" do bootcamp Orange Tech+ da Dio, Digital Inovation One <br>
+
 O objetivo foi: criar um clone da pagina inicial, login e feed da DIO, usando ReactJs e StyledComponents, ao longo do curso o projeto foi incrementado com outras ferramentas e por fim foi convertido para Typescript
 
 # Índice
